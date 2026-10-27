@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* XL - Large Screens 0 to Unlimited */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .section {
+            padding: 60px 0;
+        }
+        .container {
+            max-width: 1320px;
+            padding: 0 15px;
+            margin: 0 auto;
+        }
+        .container-fluid {
+            padding: 0 15px;
+        }
+        .no-p {
+            padding: 0!important;
+        }
+        .no-m {
+            margin: 0!important;
+        }
+        .row {
+            margin: 0 -15px;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 30px; /* دي مسافة بين السطور بين العناصر الموجودة في الرو ومنعملهاش بالبادينج فوق وتحت عشان مايزودش مسافة بين العناصر والرو نفسه */
+        }
+        .width50 {
+            padding: 0 15px;
+            width: 25%;
+            flex-grow: 1;
+        }
+        .width50 .itemInner {
+            background-color: #aaa;
+            height: 200px;
+        }
+        .hero {
+            background-color: aqua;
+        }
+        .hero3 {
+            background-color: #eee;
+        }
+        .itemInner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .itemInner p {
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        /* lg - Desktop 0 to 1199px */
+        @media (max-width: 1199px) {
+            
+        }
+        /* MD - Tablet 0 to 991px */
+        @media (max-width: 991px) {
+            .width50 {
+                width: 30%;
+            }
+        }
+        /* SM - Mobile 0 to 767px */
+        @media (max-width: 767px) {
+            .width50 {
+                width: 50%;
+            }
+        }
+        /* XS - Mobile from 0 to 575px */
+        @media (max-width: 575px) {
+            .width50 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page content">
+
+
+ <!-- section 1 -->
+        <div class="section hero">
+            <div class="container"><!-- Padding y 15px -->
+                <div class="row"><!-- margin y -15px -->
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- section 2 -->
+        <div class="section hero2">
+            <div class="container-fluid no-p"><!-- Padding y 15px -->
+                <div class="row no-m"><!-- margin y -15px -->
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+ <!-- section 3 -->
+        <div class="section hero3">
+            <div class="container"><!-- Padding y 15px -->
+                <div class="row"><!-- margin y -15px -->
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                    <div class="width50"><!-- width 50% -->
+                        <div class="itemInner">
+                            <p>fsdfsdfdsfsdfsd</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+    </div>
+</body>
+</html>

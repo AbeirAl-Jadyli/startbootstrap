@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="page content">
+        <!--navigation -->
+        <header class="navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="logo-nav">
+                        <h1 class="contact">start bootstrap</h1>
+                    </div>
+
+                    <span class="toggle-menu" onclick="toggleMenu()">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"
+                            color="#000000" fill="none">
+                            <path
+                                d="M2 18C2 16.4596 2 15.6893 2.34673 15.1235C2.54074 14.8069 2.80693 14.5407 3.12353 14.3467C3.68934 14 4.45956 14 6 14C7.54044 14 8.31066 14 8.87647 14.3467C9.19307 14.5407 9.45926 14.8069 9.65327 15.1235C10 15.6893 10 16.4596 10 18C10 19.5404 10 20.3107 9.65327 20.8765C9.45926 21.1931 9.19307 21.4593 8.87647 21.6533C8.31066 22 7.54044 22 6 22C4.45956 22 3.68934 22 3.12353 21.6533C2.80693 21.4593 2.54074 21.1931 2.34673 20.8765C2 20.3107 2 19.5404 2 18Z"
+                                stroke="currentColor" stroke-width="1.5"></path>
+                            <path
+                                d="M14 18C14 16.4596 14 15.6893 14.3467 15.1235C14.5407 14.8069 14.8069 14.5407 15.1235 14.3467C15.6893 14 16.4596 14 18 14C19.5404 14 20.3107 14 20.8765 14.3467C21.1931 14.5407 21.4593 14.8069 21.6533 15.1235C22 15.6893 22 16.4596 22 18C22 19.5404 22 20.3107 21.6533 20.8765C21.4593 21.1931 21.1931 21.4593 20.8765 21.6533C20.3107 22 19.5404 22 18 22C16.4596 22 15.6893 22 15.1235 21.6533C14.8069 21.4593 14.5407 21.1931 14.3467 20.8765C14 20.3107 14 19.5404 14 18Z"
+                                stroke="currentColor" stroke-width="1.5"></path>
+                            <path
+                                d="M2 6C2 4.45956 2 3.68934 2.34673 3.12353C2.54074 2.80693 2.80693 2.54074 3.12353 2.34673C3.68934 2 4.45956 2 6 2C7.54044 2 8.31066 2 8.87647 2.34673C9.19307 2.54074 9.45926 2.80693 9.65327 3.12353C10 3.68934 10 4.45956 10 6C10 7.54044 10 8.31066 9.65327 8.87647C9.45926 9.19307 9.19307 9.45926 8.87647 9.65327C8.31066 10 7.54044 10 6 10C4.45956 10 3.68934 10 3.12353 9.65327C2.80693 9.45926 2.54074 9.19307 2.34673 8.87647C2 8.31066 2 7.54044 2 6Z"
+                                stroke="currentColor" stroke-width="1.5"></path>
+                            <path
+                                d="M14 6C14 4.45956 14 3.68934 14.3467 3.12353C14.5407 2.80693 14.8069 2.54074 15.1235 2.34673C15.6893 2 16.4596 2 18 2C19.5404 2 20.3107 2 20.8765 2.34673C21.1931 2.54074 21.4593 2.80693 21.6533 3.12353C22 3.68934 22 4.45956 22 6C22 7.54044 22 8.31066 21.6533 8.87647C21.4593 9.19307 21.1931 9.45926 20.8765 9.65327C20.3107 10 19.5404 10 18 10C16.4596 10 15.6893 10 15.1235 9.65327C14.8069 9.45926 14.5407 9.19307 14.3467 8.87647C14 8.31066 14 7.54044 14 6Z"
+                                stroke="currentColor" stroke-width="1.5"></path>
+                        </svg>
+                    </span>
+
+                    <ul class="contant-nav">
+                        <li class="contact">
+                            <a href="#about">about</a>
+                        </li>
+                        <li class="contact">
+                            <a href="#service">service</a>
+                        </li>
+                        <li class="contact">
+                            <a href="#protfolio">protfolio</a>
+                        </li>
+                        <li class="contact">
+                            <a href="#contact">contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </header>
+
+
+        <!-- section favorite -->
+        <section class="favorite">
+            <div class="container">
+                <div class="content-favorite">
+                    <div class="title">
+                        <h2>Your Favorite Place for Free
+                            bootstrap themes</h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <p>Start Bootstrap can help you build better websites using the Bootstrap framework! Just
+                            download a theme and start customizing, no strings attached!</p>
+                    </div>
+                    <div>
+                        <button class="btn">find out more</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- about -->
+        <section id="about">
+            <div class="container">
+                <div class="content-about">
+                    <div class="title">
+                        <h3>We've got what you need!</h3>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <p>Start Bootstrap has everything you need to get your new website up and running in no
+                            time!
+                            Choose
+                            one of our open source, free to download, and easy to use themes! No strings attached!
+                        </p>
+                    </div>
+                    <button class="btn btn-about">Get started!</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- service -->
+
+        <section id="service">
+            <div class="container">
+                <div class="content-service">
+                    <div class="title">
+                        <h2>
+                            At Your Service
+                        </h2>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="service-card">
+                            <div class="itemHolder">
+                                <i class="fa-regular fa-gem"></i>
+                                <h3>Sturdy Themes</h3>
+                                <p>
+                                    Our themes are updated regularly to keep them bug free!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="service-card">
+                            <div class="itemHolder">
+                                <i class="fa-regular fa-gem"></i>
+                                <h3>Up to Dates</h3>
+                                <p>
+                                    Our themes are updated regularly to keep them bug free!
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="service-card">
+                            <div class="itemHolder">
+                                <i class="fa-regular fa-gem"></i>
+                                <h3>Ready to Publish</h3>
+                                <p>
+                                    Our themes are updated regularly to keep them bug free!
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <div class="service-card">
+                            <div class="itemHolder">
+                                <i class="fa-regular fa-gem"></i>
+                                <h3>Made with Love</h3>
+                                <p>
+                                    Our themes are updated regularly to keep them bug free!
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- protfolio -->
+        <div class="protfolio no-p">
+            <section id="protfolio" class="no-p">
+                <div class="container-fluid no-p">
+                    <div class="content-protfolio">
+                        <div>
+                            <img src="image/1.jpg" alt="">
+                            <div class="category">
+                                <h5>Category</h5>
+                                <h5>Project Name</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/2.jpg" alt="">
+                               <div class="category">
+                                <h5>Category</h5>
+                                <h5>Project Name</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/3.jpg" alt="">
+                               <div class="category">
+                                <h5>Category</h5>
+                                <h5>Project Name</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/4.jpg" alt="">
+                               <div class="category">
+                                <h5>Category</h5>
+                                <h5>Project Name</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/5.jpg" alt="">
+                               <div class="category">
+                                <h5>Category</h5>
+                                <h5>Project Name</h5>
+                            </div>
+                        </div>
+                        <div>
+                            <img src="image/6.jpg" alt="">
+                               <div class="category">
+                                <h5>Category</h5>
+                                <h5>Project Name</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- download -->
+            <section class="download">
+                <div class="container-fluid no-p">
+                    <div class="content-download">
+                        <h3 class="title">Free Download at Start Bootstrap!</h3>
+                        <button class="btn btn-about">DOWNLOAD NEW!</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+
+        <!-- contact -->
+        <section id="contact">
+            <div class="container">
+                <div class="content-contact">
+                    <div class="title">
+                        <h3>Let's Get In Touch!</h3>
+                        <div class="line">
+                            <hr>
+                        </div>
+                    </div>
+                    <div class="start">
+                        <p>Ready to start your next project with us? Send us a messages and we will get back to
+                            you
+                            as soon as possible!</p>
+                    </div>
+                    <div class="form">
+                        <form action="">
+                            <input type="text" placeholder="Full Name" required>
+                            <input type="email" placeholder="Email Adress" required>
+                            <input type="text" placeholder="Phone Number" required>
+                            <input type="text" placeholder="message" required>
+                            <button type="submit" class="btn submit">SUBMIT</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="communication">
+                    <i class="fa-solid fa-mobile"></i>
+                    <p>+1 (555) 123-4567</p>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <p>Copyright © 2023 - Company Name</p>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
