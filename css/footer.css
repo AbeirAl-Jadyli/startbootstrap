@@ -1,0 +1,8 @@
+/* footer */
+footer {
+    background-color: rgba(248, 249, 250, 1);
+    color: #6c757d;
+    padding: 48px 0;
+    display: flex;
+    justify-content: center;
+}

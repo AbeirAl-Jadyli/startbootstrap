@@ -1,0 +1,88 @@
+:root {
+    --main-color: #f4623a;
+    --main-text-color: white;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.line hr {
+    margin-top: 1rem;
+    width: 4rem;
+    height: 4px;
+    background-color: #c24e2e;
+    opacity: 1;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+section,
+.section {
+    padding: 128px 0;
+}
+
+.no-p {
+    padding: 0 !important;
+}
+
+.no-m {
+    margin: 0 !important;
+}
+
+.container {
+    max-width: 1320px;
+    padding: 0 24px;
+    margin: 0 auto;
+}
+
+.row {
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    /* دي مسافة بين السطور بين العناصر الموجودة في الرو ومنعملهاش بالبادينج فوق وتحت عشان مايزودش مسافة بين العناصر والرو نفسه */
+}
+
+.btn{
+    padding: 1.25rem 2.25rem;
+    border: 2px solid var(--main-color);
+    border-radius: 10rem;
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background-color: #c34e2e;
+    border: 2px solid #c34e2e;
+}
+
+.btn-about{
+        border: 2px solid var(--main-text-color);
+    border-radius: 10rem;
+    background-color: var(--main-text-color);
+    color: black;
+}

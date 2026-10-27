@@ -1,0 +1,36 @@
+
+/* contact */
+.content-contact {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 3rem
+}
+
+@media (min-width:992px) {
+    .content-contact {
+        width: 50%;
+        margin-inline: auto;
+    }
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+form input,
+.submit {
+    padding: 1rem 0.75rem;
+    padding-block: 1.2rem;
+    width: 80%;
+}
+
+.communication {
+    text-align: center;
+}
+

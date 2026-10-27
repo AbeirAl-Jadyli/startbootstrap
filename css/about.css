@@ -1,0 +1,12 @@
+#about {
+    background-color: var(--main-color);
+    color: var(--main-text-color);
+    text-align: center;
+}
+@media (min-width:992px) {
+    .content-about {
+        width: 50%;
+        margin-inline: auto;
+    }
+
+}

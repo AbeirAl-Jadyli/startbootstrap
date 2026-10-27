@@ -1,0 +1,46 @@
+/* protfolio */
+.container-fluid {
+    padding: 0 15px;
+}
+
+.content-protfolio {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-protfolio>div {
+    width: calc(100% / 3);
+    position: relative;
+}
+
+.content-protfolio>div img {
+    max-width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.category {
+    background-color: rgba(194, 78, 46, 0.3);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.content-protfolio>div:hover .category {
+    opacity: 1;
+}
+
+/* download */
+.download {
+    color: var(--main-text-color);
+    background-color: rgba(33, 37, 41, 1);
+}
+
+.content-download {
+    text-align: center;
+}
